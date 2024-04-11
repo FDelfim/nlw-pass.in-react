@@ -1,30 +1,16 @@
-# React + TypeScript + Vite
+# NLW pass.in - React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend da aplicação pass.in.
 
-Currently, two official plugins are available:
+Especificações
+O pass.in é uma aplicação de gestão de participantes em eventos presenciais.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A ferramenta permite que o organizador cadastre um evento e abra uma página pública de inscrição.
 
-## Expanding the ESLint configuration
+Os participantes inscritos podem emitir uma credencial para check-in no dia do evento.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+O sistema fará um scan da credencial do participante para permitir a entrada no evento.
 
-- Configure the top-level `parserOptions` property like this:
+## Backend disponível em 
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+[NLW pass.in - node](https://github.com/FDelfim/nlw-pass.in)
